@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <h3>Registration Form</h3>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <br>
+        <input type="password" placeholder="password">
+        <h5>Select Your Class</h5>
+        <label for="101">
+            <input type="radio" value="B.tech" name="branch" id="101">B.tech
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="BCA" name="branch" id="102">BCA
+        </label>
+        <h5>Select Subjects</h5>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="math">Math
+        </label>
+        <br>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="phy">Physics
+        </label>
+        <br>
+        <label for="chem">
+            <input type="checkbox" value="chem" name="subject" id="chem">Chemistry
+        </label>
+        <br>
+        <label for="hindi">
+            <input type="checkbox" value="hindi" name="subject" id="hindi">Hindi
+        </label>
+        <br><br>
+        Select your city:  <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Uttar pradesh">Uttar pradesh</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" placeholder="Give your valuable feedback...." rows="5"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+
+</html>
